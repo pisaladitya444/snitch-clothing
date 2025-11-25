@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hero-img{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+#featuredCategories{
+    background-color: rgb(246, 238, 238);
+}
+
+.img-fit img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+/* .img-products{
+    width: ;
+} */
+/* 1) https://d2d5n4ft74bagm.cloudfront.net/media/featured-category/3cc45597-e378-4560-be80-bc5be39911e8/1763623050.jpeg?w=90 */
