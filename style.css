@@ -17,7 +17,9 @@
     object-fit: cover;
 }
 
-
+#about{
+    background-color: rgb(247, 234, 218);
+}
 
 
 /* .img-products{
