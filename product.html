@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snitch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Snitch</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">T-Shirt</a></li>
+                            <li><a class="dropdown-item" href="#">Formal Shirt</a></li>
+                            <li><a class="dropdown-item" href="#">Trouser</a></li>
+                            <li><a class="dropdown-item" href="#">Jeans</a></li>
+                            <li><a class="dropdown-item" href="#">Jacket</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- sizesection -->
+    <div id="size" class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="m-4 p-4">
+                    <div id="carouselExampleControls" class="carousel slide w-75" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4msw9122-01_1.jpg?v=1763103616&quality=80"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4msw9122-01_1.jpg?v=1763103616&quality=80"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4msw9122-01_1.jpg?v=1763103616&quality=80"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon  btn btn-dark rounded-circle"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon btn btn-dark rounded-circle"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="mt-5 p-3 text-center">
+                    <h4>Embroidered 100% Cotton Regular Fit T-Shirt ₹999</h4>
+                </div>
+                <div class="row text-center">
+                    <h4>SIZE</h4>
+                </div>
+                <div class="sizeButtons d-flex justify-content-center align-items-center">
+                    <button class="px-3 m-1 btn btn-outline-dark">XL</button>
+                    <button class="px-3 m-1 btn btn-outline-dark">XXL</button>
+                    <button class="px-3 m-1 btn btn-outline-dark">XXXL</button>
+                    <button class="px-3 m-1 btn btn-outline-dark">L</button>
+                    <button class="px-3 m-1 btn btn-outline-dark">M</button>
+                    <button class="px-3 m-1 btn btn-outline-dark">S</button>
+                </div>
+                <h4 class="text-center p-3"><i class="fa-solid fa-truck"></i> FREE 1-2 day delivery on 5k+ pincodes</h4>
+                <div class="d-flex justify-content-center align-items-center">
+                    <button class="w-75 btn btn-dark">ADD TO BAG</button>
+                </div>
+                <div class="product-detali">
+                    <div class="product-detail m-3">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                DETAILS
+                            </button>
+                            <ul class="dropdown-menu container p-2" aria-labelledby="dropdownMenuButton1">
+                                <p>Crafted from 100% cotton, this white T-shirt combines simplicity with a touch
+                                    of charm, featuring a pixelated red heart embroidery. Its regular fit ensures
+                                    comfort,
+                                    making it a versatile addition to your wardrobe for casual outings or relaxed
+                                    settings.
+                                </p>
+                                <div>
+                                    <p>Size & fit</p>
+                                    <p>
+                                        Fit - Regular Fit <br>
+                                        Size - Model Is Wearing Size M</p>
+                                </div>
+                                <div>
+                                    <p>Wash care</p>
+                                    <p>Machine Wash</p>
+                                </div>
+                                <div>
+                                    <p>Specification</p>
+                                    <p>
+                                        Casual Wear
+                                        Embroidered
+                                        Crew
+                                        Cotton
+                                        Half Sleeve
+                                    </p>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-detail m-3">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                DETAILS
+                            </button>
+                            <ul class="dropdown-menu container p-2" aria-labelledby="dropdownMenuButton1">
+                                <p>Crafted from 100% cotton, this white T-shirt combines simplicity with a touch
+                                    of charm, featuring a pixelated red heart embroidery. Its regular fit ensures
+                                    comfort,
+                                    making it a versatile addition to your wardrobe for casual outings or relaxed
+                                    settings.
+                                </p>
+                                <div>
+                                    <p>Size & fit</p>
+                                    <p>
+                                        Fit - Regular Fit <br>
+                                        Size - Model Is Wearing Size M</p>
+                                </div>
+                                <div>
+                                    <p>Wash care</p>
+                                    <p>Machine Wash</p>
+                                </div>
+                                <div>
+                                    <p>Specification</p>
+                                    <p>
+                                        Casual Wear
+                                        Embroidered
+                                        Crew
+                                        Cotton
+                                        Half Sleeve
+                                    </p>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--simaler items below  -->
+    <div id="similarItems" class="container-fulid">
+        <div class="row m-4">
+            <div class="col-md-3">
+                <div class="card">
+                    <a href="./product.html">
+                        <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4msw9122-01_1.jpg?v=1763103616&quality=80"
+                            alt="" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p>Regular Fit Zipper Sweate</p>
+                        <h6>$30</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst3234-06_1.jpg?v=1761844414&quality=80"
+                            alt="" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p>Regular Fit Zipper Sweate</p>
+                        <h6>$30</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4480-01_1.jpg?v=1761844399&quality=80"
+                            alt="" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p>Regular Fit Zipper Sweate</p>
+                        <h6>$30</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst3234-01_1.jpg?v=1761844407&quality=80"
+                            alt="" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p>Regular Fit Zipper Sweate</p>
+                        <h6>$30</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row m-4">
+            <div class="col-md-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4msw9122-01_1.jpg?v=1763103616&quality=80"
+                            alt="" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p>Regular Fit Zipper Sweate</p>
+                        <h6>$30</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst3234-06_1.jpg?v=1761844414&quality=80"
+                            alt="" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p>Regular Fit Zipper Sweate</p>
+                        <h6>$30</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4480-01_1.jpg?v=1761844399&quality=80"
+                            alt="" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p>Regular Fit Zipper Sweate</p>
+                        <h6>$30</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <a href="#">
+                        <img src="https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst3234-01_1.jpg?v=1761844407&quality=80"
+                            alt="" class="card-img-top">
+                    </a>
+                    <div class="card-body">
+                        <p>Regular Fit Zipper Sweate</p>
+                        <h6>$30</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid bg-dark text-light p-3 text-center">
+        <h3>copyright@2025</h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
